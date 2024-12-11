@@ -7,10 +7,9 @@ updates:
     labels:
       - "dependency update"
     commit-message:
-      prefix: "chore: update dependency version"
+      prefix: "build"
+      include: "scope"
     open-pull-requests-limit: 5
     rebase-strategy: "auto"
-    assignees:
-      - "github-bot"
     reviewers:
       - "asadali214"
