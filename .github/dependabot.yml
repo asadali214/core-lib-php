@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "composer"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependency update"
+    commit-message:
+      prefix: "chore: update dependency version"
+    open-pull-requests-limit: 5
+    rebase-strategy: "auto"
+    assignees:
+      - "github-bot"
+    reviewers:
+      - "asadali214"
